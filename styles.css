@@ -11524,4 +11524,93 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateX(0);
     transition: all 0.5s;
   }
+  @media (min-width: 410px) and (max-width: 575px) {
+  
+  .posicionamentoTextoGrapy {
+    position: relative;
+    top: 10px;
+  }
+  
+  .grapy {
+    width: 360px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .posicinamento-icones {
+    position: relative;
+    top: 50px;
+    left: 1rem;
+  }
+  
+  .logos {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .avatar {
+    height: 55px;
+    border-radius: 10px;
+    margin: 4px;
+  }
+
+  .hidden2 {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(3%);
+    transition: all 1.5s;
+  }
+
+  .show2 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 0.5s;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+  
+  .posicionamentoTextoGrapy {
+    position: relative;
+    top: 10px;
+  }
+  
+  .grapy {
+    width: 280px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .posicinamento-icones {
+    position: relative;
+    top: 50px;
+    left: 1rem;
+  }
+  
+  .logos {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .avatar {
+    height: 40px;
+    border-radius: 10px;
+    margin: 4px;
+  }
+
+  .hidden2 {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(3%);
+    transition: all 1.5s;
+  }
+
+  .show2 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 0.5s;
+  }
+}
 }
